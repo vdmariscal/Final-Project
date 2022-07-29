@@ -1,0 +1,36 @@
+body{ 
+    background-color: steelblue;
+
+  }
+body{
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+  }
+  .logo{
+      height: 100px;
+      width: 100px;
+      display: inline;
+      border-radius: 15%;
+     }
+  .nav{
+      margin: 0;
+      padding:50px;
+     
+  }
+  li{
+      float: right;
+      width: 100px;
+      list-style-type: none;
+      text-align: center;
+      text-decoration: none;
+      text-decoration-color: greenyellow;
+      
+  }
+  li a:hover{
+      background-color: dimgrey;
+  }
+  .sectionimg{
+    height: 400px;
+    width: 300px;
+    title: "sunset at Grand Canyon"
+  }
