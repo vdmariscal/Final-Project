@@ -1,36 +1,92 @@
-body{ 
-    background-color: steelblue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
 
-  }
-body{
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-  }
-  .logo{
-      height: 100px;
-      width: 100px;
-      display: inline;
-      border-radius: 15%;
-     }
-  .nav{
-      margin: 0;
-      padding:50px;
-     
-  }
-  li{
-      float: right;
-      width: 100px;
-      list-style-type: none;
-      text-align: center;
-      text-decoration: none;
-      text-decoration-color: greenyellow;
-      
-  }
-  li a:hover{
-      background-color: dimgrey;
-  }
-  .sectionimg{
-    height: 400px;
-    width: 300px;
-    title: "sunset at Grand Canyon"
-  }
+.nav {
+    background-color:#F28B50;
+    height: 50px;
+    opacity: .7;
+    font-weight: bold;
+
+}
+
+.nav ul li {
+    color: #e8d5b2;
+    list-style-type: none;
+    width: 150px;
+    float: right;
+    text-align: center;
+    border-left: 2px solid #F2C063;
+    padding-top: 10px;
+
+}
+
+.li a {
+    display: block;
+    text-decoration: none;
+    color: #F26430;
+    font-size: medium;
+    line-height: 50px;
+}
+
+.li a:hover {
+    color: gray;
+
+}
+
+.hero-img {
+    position: relative;
+    width:100%;
+    height: auto;
+    text-align: center;
+    background: url(/Final-Project/img/background_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+.hero-img::before {
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    
+}
+.hero-content{
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+.hero-content-inner {
+    font-size: 20px;
+    font-style: none;
+    color:#e8d5b2
+}   
+.logo h2 {
+    font-family:fantasy;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.logo p {
+    text-align: center;
+    padding-bottom: 100px;    
+}
+
+.footer small{
+    text-align: left;
+}
